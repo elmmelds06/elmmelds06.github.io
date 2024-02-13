@@ -1,0 +1,28 @@
+h1 {
+    font-size: 3em;
+    /* Smaller font size */
+    animation: ticker 10s linear infinite;
+    /* Slower animation */
+}
+p {
+    font-size: 1em;
+    /* Smaller font size */
+    padding: 0 5%;
+    /* Add some padding */
+}
+nav ul {
+    font-size: 0.6em;
+}
+iframe {
+    display: none;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(200vw);
+    }
+
+    100% {
+        transform: translateX(-200vw);
+    }
+}

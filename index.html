@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
+    <title>Ich darf Ihnen saasen</title>
+    <link rel="icon" type="image/gif" href="favicon.png">
+</head>
+
+<body>
+    <div id="top" style="position: relative; top: -70px; visibility: hidden;"></div>
+    <header>
+        <h1>Jonas Marian Schober</h1>
+    </header>
+    <nav class="top">
+        <ul>
+            <li><a href="#anchor1">Über mich</a></li>
+            <li><a href="#anchor2">Mission</a></li>
+            <li><a href="#anchor3">Background</a></li>
+            <li><a href="#anchor4">Kontakt</a></li>
+            <li><a href="#anchor5">Projekte</a></li>
+        </ul>
+    </nav>
+
+
+    <main id="page1">
+        <div id="anchor1" style="position: relative; top: -10vh; visibility: hidden;"></div>
+        <section id="section1">
+            <h2>Über mich</h2>
+            <p>
+                Hallo ich heiße Jonas, bin 22 Jahre alt und komme aus Linz. Ich bin leidenschaftlicher Programmierer
+                und habe einige Projekte zusammengesetzt (unter anderem diese Website) die ich hier präsentieren möchte. Weitere meiner Interessen 
+                sind Astrtonomie und Sport.Diese Website dient als digitales Portfolio, um meine Arbeit und meine Interessen zu teilen. 
+                Wenn du Fragen hast oder mit mir zusammenarbeiten möchtest, zögere nicht, mich zu kontaktieren!
+
+            </p>
+        </section>
+        <div id="anchor2" style="position: relative; top: -10vh; visibility: hidden;"></div>
+        <section id="section2">
+            <h2>Mission</h2>
+            <p> In meiner Motivation in der IT-Branche spiegelt sich meine langjährige Erfahrung 
+                aus der Schule wider, die durch meine jetzige Ausbildung bei CodersBay noch weiter vertieft wird.
+                Die Vielfalt der IT hat mich schon immer fasziniert, und ich bringe nicht nur solide technische Kenntnisse, 
+                sondern auch meine Kreativität in Projekte ein. Meine Teamfähigkeit ermöglicht mir effektive Zusammenarbeit, während meine Fähigkeit
+                zur eigensändigen Arbeit für flexibilität sorgt. Mit meiner ausgeprägten Vorstellungskraft bin ich in der Lage, 
+                die Wünsche meiner Teammitglieder und Kunden umzusetzen. Ich freue mich auf meine viefversprechende Zukunft in der IT.
+
+            </p>
+        </section>
+        <div id="anchor3" style="position: relative; top: -10vh; visibility: hidden;"></div>
+        <section id="section3">
+            <h2>Background</h2>
+            <p> Meine umfassenden Kenntnisse habe ich insbesondere meiner jahrenlangenm Fachausbildung im Oberstufengynasium Linz erworben. 
+                Derzeit vertiefe ich meine Fähigkeiten durch meine Ausbildung bei CodersBay, um meine Expertise weiter zu stärken. </p>
+                <br>  </br>
+            <p> Borg Linz - IT-Zweig
+                <br> Jan 2012 - Feb 2016 </p>
+            <p> CodersBay Ausbildung
+                <br> Jan 2018 - Feb 2019 </br>
+            </p>
+        </section>
+        <div id="anchor4" style="position: relative; top: -10vh; visibility: hidden;"></div>
+        <section id="section4">
+            <h2>Kontakt</h2>
+            <p>
+                Ich bin immer auf der Suche nach neuen Herausforderungen und Projekten. Wenn du mit mir zusammenarbeiten
+                möchtest, kontaktiere mich bitte.
+            </p>
+
+
+            <div id="form-selection">
+                <input type="radio" id="private" name="formType" value="private" checked>
+                <label for="private">Privat</label>
+                <input type="radio" id="business" name="formType" value="business">
+                <label for="business">Firma</label>
+            </div>
+
+            <form id="private-form">
+                <div class="flex_box">
+                    <div class="name_box">
+                        <label for="first-name">Vorname:</label>
+                        <input type="text" id="first-name" name="first-name" required class="form_field">
+                    </div>
+                    <div class="name_box">
+                        <label for="last-name">Nachname:</label>
+                        <input type="text" id="last-name" name="last-name" required class="form_field">
+                    </div>
+                </div>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required class="form_field">
+                <label for="message">Nachricht:</label>
+            
+                    <textarea id="message" name="message" required class="form_field"></textarea>
+                
+                <input type="submit" value="Senden" class="postman">
+            </form>
+
+            <form id="business-form" style="display: none;">
+                <div class="flex_box">
+                    <div class="name_box">
+                        <label for="first-name">Firma:</label>
+                        <input type="text" id="first-name" name="first-name" required class="form_field">
+                    </div>
+                </div>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required class="form_field">
+                <label for="message">Nachricht:</label>
+            
+                    <textarea id="message" name="message" required class="form_field"></textarea>
+                
+                <input type="submit" value="Senden" class="postman">
+            </form>
+
+        </section>
+        <div id="anchor5" style="position: relative; top: -10vh; visibility: hidden;"></div>
+        <section id="section5">
+            <h2>Projekte</h2>
+            <div class="iframe-container">
+                <iframe src="https://scratch.mit.edu/projects/190626656/embed/" frameborder="0"></iframe>
+            </div>
+            <h3><a href="https://scratch.mit.edu/projects/190626656/">Open on Scratch</a></h3>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <nav class="footer">
+            <ul>
+                <li>
+                    <a href="#top">Zurück zum Start</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
