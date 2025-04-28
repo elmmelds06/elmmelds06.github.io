@@ -1,19 +1,25 @@
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     /* Smaller font size */
     animation: ticker 10s linear infinite;
     /* Slower animation */
 }
-p {
-    font-size: 1em;
+
+section p {
+    font-size: 1rem;
     /* Smaller font size */
-    padding: 0 5%;
-    /* Add some padding */
+    padding: 0 2%;
 }
+
+section form {
+    padding: 8px 2%;
+}
+
 nav ul {
-    font-size: 0.6em;
+    font-size: 0.6rem;
 }
-iframe {
+
+.iframe-container {
     display: none;
 }
 
